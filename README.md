@@ -1,3 +1,4 @@
+>>
 git checkout -b feature/main 
 git add .
 git commit -m "create main page"
@@ -12,7 +13,11 @@ git commit -m "add box model styles"
 git add .
 git commit -m "add flexbox laouts"
 
-git checkout branch main
+git checkout main
 git merge feature/main
 git merge feature/css
-git checkout main
+git push origin main
+
+git add README 
+git commit -m "readme edit"
+git push
